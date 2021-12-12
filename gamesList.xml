@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<games xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<game>
+		<NAME>FF</NAME>
+		<FirstType>RPG</FirstType>
+		<SecondType>Adventure</SecondType>
+	</game>
+	<game>
+		<NAME>Zelda</NAME>
+		<FirstType>Adventure</FirstType>
+		<SecondType>Action</SecondType>
+	</game>
+	<game>
+		<NAME>Age of Empire</NAME>
+		<FirstType>Strategic</FirstType>
+		<SecondType>Gestion</SecondType>
+	</game>
+	<game>
+		<NAME>Street Figther</NAME>
+		<FirstType>Combat</FirstType>
+		<SecondType>Action</SecondType>
+	</game>
+	<game>
+		<NAME>Undertale</NAME>
+		<FirstType>RPG</FirstType>
+		<SecondType>Adventure</SecondType>
+	</game>
+	<game>
+		<NAME>Civilisation</NAME>
+		<FirstType>Gestion</FirstType>
+		<SecondType>Strategic</SecondType>
+	</game>
+</games>

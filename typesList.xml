@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<types xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<type>RPG</type>
+	<type>Adventure</type>
+	<type>Strategic</type>
+	<type>Combat</type>
+	<type>Gestion</type>
+	<type>Action</type>
+</types>
