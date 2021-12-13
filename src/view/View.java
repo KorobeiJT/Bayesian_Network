@@ -20,7 +20,7 @@ public class View {
 		// The World on which the view get information about the position of food and birds.  
 		
 		this.panel = new Panel(new_model);
-		panel.setBackground(Color.red);
+		panel.setBackground(Color.white);
 		panel.setBounds(0, 0, WIDTH, HEIGHT);
 
 		this.frame = new JFrame();
