@@ -14,11 +14,18 @@ public class Node {
 	public String[] parents_names;
 	public String[] children_names;
 	
-	public Node(String name, String[] parents_names) {
+	public Node(String name, String[] parents_names, String[] children_names) {
 		this.name = name;
 		this.parents_names = parents_names;
+		this.children_names = children_names;
 	}
 	
+	public void setParentsNames(String[] parents_names) {
+		this.parents_names = parents_names;
+	}	
 	
+	public void setChildrenNames(String[] children_names) {
+		this.children_names = children_names;
+	}
 	
 }
