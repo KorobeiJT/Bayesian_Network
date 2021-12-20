@@ -35,7 +35,7 @@ public class DataCollector {
 			for (int i = 0; i < typesList.getLength(); i++) {
 				Node type = typesList.item(i);
 				assert(type.getNodeType() == Node.ELEMENT_NODE);
-				if (!type.getTextContent().isBlank()) {
+				if (!type.getTextContent().isEmpty()) {
 					res.add(type.getTextContent());					
 				}
 			}

@@ -36,5 +36,10 @@ public class Parameters {
 			parametre.put(tmp, (float) (1.0/number_parents));
 		}
 	}
+	
+	public Parameters(float value) {
+		parametre = new HashMap<Boolean[], Float>();
+		parametre.put(null, value);
+	}
 
 }

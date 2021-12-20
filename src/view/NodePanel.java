@@ -10,11 +10,11 @@ public class NodePanel extends JPanel {
 
 	public NodePanel(Node node) {
 		super();
-		FlowLayout layout = new FlowLayout();
-		super.setLayout(layout);
-		this.setMaximumSize(new Dimension(200,200));
-		this.add(new JLabel(node.name, SwingConstants.CENTER));
-		this.add(new JButton(node.name));
-		this.setBackground(Color.red);
+		super.setLayout(new BorderLayout());
+//		this.setBounds(0, 0, 200, 200);
+//		this.setMaximumSize(new Dimension(200,200));
+		this.add(new JLabel(node.name), BorderLayout.CENTER);
+		this.add(new JButton(node.name), BorderLayout.NORTH);
+//		this.setBackground(Color.red);
 	}
 }

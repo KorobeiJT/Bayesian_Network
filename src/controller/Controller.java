@@ -23,7 +23,7 @@ public class Controller implements MouseListener {
 		// Cree un monde qui contient les birds et la food qui evoluent
 		this.model = new Model(WIDTH, HEIGHT);
 		this.view = new View(model);
-		this.view.getPanel().addMouseListener(this);
+//		this.view.getPanel().addMouseListener(this);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class Controller implements MouseListener {
 
 	public static void main(String[] args) {
 		Controller controller = new Controller();
-		controller.view.start();
+//		controller.view.start();
 	}
 
 	@Override
